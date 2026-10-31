@@ -314,7 +314,7 @@ if b.con is not None:
 
     while True:
 
-        print("\n===== ONLINE BOOK MANAGEMENT SYSTEM =====")
+        print("\n ONLINE BOOK MANAGEMENT SYSTEM ")
         print("1. Insert New Book")
         print("2. Display All Books")
         print("3. Search Book by ID")
