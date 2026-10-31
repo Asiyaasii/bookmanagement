@@ -30,9 +30,9 @@ class Book_db:
             cursor = self.con.cursor()
 
             query = """
-            INSERT INTO books
+            Insert into books
             (book_id, title, author, category, price, stock)
-            VALUES (%s, %s, %s, %s, %s, %s)
+           values (%s, %s, %s, %s, %s, %s)
             """
 
             data = (book_id, title, author, category, price, stock)
